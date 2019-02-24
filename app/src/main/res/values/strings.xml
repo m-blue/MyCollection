@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">My Collection</string>
+    <string-array name="pork_recipe">
+        1 tsp. ground allspice
+        1 tsp. freshly ground black pepper
+        1 tsp. ground cinnamon
+        1/2 tsp. ground nutmeg
+        2 tsp. dried thyme
+        1/2 cup scallions, finely chopped
+        3 Tbs soy sauce
+        2 Tbs fresh ginger, grated
+        1 chile pepper, seeded and minced
+        2 tsp sugar
+        1 tsp salt
+        4 lean pork chops, 1-inch thick
+    </string-array>
 </resources>

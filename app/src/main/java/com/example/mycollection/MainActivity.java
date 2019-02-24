@@ -3,12 +3,10 @@ package com.example.mycollection;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
 import java.net.URI;
 
 public class MainActivity extends ListActivity {
@@ -17,7 +15,7 @@ public class MainActivity extends ListActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        String[] what = {"Fluffy Pancakes", "Hamburgers", "Caribbean Pork Chops"};
+        String[] what = {"Fluffy Pancakes", "Mexican Chorizo Burgers", "Caribbean Pork Chops", "Turtle Cheesecake", "Homemade Honey Roasted Peanuts"};
         setListAdapter(new ArrayAdapter<String>(this,R.layout.activity_main,R.id.hello,what));
 
     }
@@ -36,6 +34,7 @@ public class MainActivity extends ListActivity {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.lifeloveandsugar.com/turtle-cheesecake/")));
                 break;
             case 4:
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.motherearthliving.com/cooking-methods/honey-roasted-peanuts-recipe-zmoz12sozmel")));
                 break;
         }
     }
